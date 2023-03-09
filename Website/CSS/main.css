@@ -26,8 +26,10 @@ h3 {
 }
 
 img.home {
-    border:15px;
-    border-image-outset:#707070;
+    border-style:outset
+    border-width:15px;
+    border-color:#707070;
+    
 }
 
 img.games {
@@ -37,27 +39,28 @@ img.games {
 }
 
 div.home {
-    border:2px;
-    color:"solid black";
-    margin:20px 100px;
-    padding:15px 5px;
-    text-align:center;
-    background-color:white;
-    border-radius:20px;
-}
-
-a.gamelink {
-    text-align:right;
-}
-
-div.about {
     border-width:2px;
     border-style:solid;
-    margin:20px;
+    margin:15px;
     padding:15px;
     border-color:black;
     border-radius:20px;
     text-align:center;
     background-color:ghostwhite;
+}
+
+div.about {
+    border-width:2px;
+    border-style:solid;
+    margin:15px;
+    padding:15px;
+    border-color:black;
+    border-radius:20px;
+    text-align:center;
+    background-color:ghostwhite;
+}
+
+a.gamelink {
+    text-align:right;
 }
 </html>
