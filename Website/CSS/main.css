@@ -30,12 +30,11 @@ body {
 
 /* Change the color of links on hover */
 .sidenav a:hover {
-  color: white;
+  background-color: #003891;
 }
 
 /* Add a background color on active links */
 .sidenav a.active {
-  background-color: #4CAF50;
   color: white;
 }
 
