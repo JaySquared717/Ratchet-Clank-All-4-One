@@ -23,6 +23,7 @@ body {
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
+    text-align: center;
   font-size: 25px;
   color: beige;
   display: block;
@@ -66,21 +67,31 @@ div.home {
     padding:15px;
     border-color:black;
     border-radius:20px;
-    text-align:center;
-    background-color:ghostwhite;
+    margin-right: 350px;
 }
 
 div.about {
     border-width:2px;
     border-style:solid;
     margin:15px;
-    padding:15px;
+    padding:10px;
     border-color:black;
     border-radius:20px;
-    text-align:center;
-    background-color:ghostwhite;
+}
+
+div.games {
+    border-width:2px;
+    border-style:solid;
+    margin:15px;
+    padding:10px;
+    border-color:black;
+    border-radius:20px;
+    margin-left: inherit;
+    margin-right: inherit;
 }
 
 a.gamelink {
-    text-align:right;
+    font-size: 30px;
+    padding-right: 20px;
+    padding-top: 15px;
 }
