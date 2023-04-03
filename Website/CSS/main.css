@@ -60,6 +60,12 @@ img.games {
     height:261px;
 }
 
+img.characthers {
+    width: auto
+    height: auto;
+    max-height: 400px;
+}
+
 div.home {
     border-width:2px;
     border-style:solid;
@@ -79,10 +85,10 @@ div.about {
     border-radius:20px;
 }
 
-div.games {
+p.characthers {
     border-width:2px;
     border-style:solid;
-    margin:15px;
+    margin-right:115px;
     padding:10px;
     border-color:black;
     border-radius:20px;
