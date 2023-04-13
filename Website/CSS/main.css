@@ -21,12 +21,12 @@ body {
 
 /* Style the links inside the sidebar */
 .sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
     text-align: center;
-  font-size: 25px;
-  color: beige;
-  display: block;
+    font-size: 25px;
+    color: beige;
+    display: block;
 }
 
 /* Change the color of links on hover */
