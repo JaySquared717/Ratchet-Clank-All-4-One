@@ -66,9 +66,10 @@ img.games {
 }
 
 img.characthers {
-    float: right;
-    width: 25%;
+    width: 100%;
     height: auto;
+    max-height: 50%;
+    max-width: 300px; /* Set the maximum width for the image */
 }
 
 div.home {
