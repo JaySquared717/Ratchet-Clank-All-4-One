@@ -1,25 +1,26 @@
 h1 {
-    color:white;
-    text-align:center;
+    color: white;
+    text-align: center;
 }
 
 body {
-    background-color:#ED4818;
+    background-color: #ED4818;
+    margin: 0; /* Remove default margin */
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
 }
 
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 150px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100vh; /* Full viewport height */
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
     left: 0;
     background-color: #CB3C13;
-    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-x: hidden;
     padding-top: 20px;
 }
 
-/* Style the links inside the sidebar */
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -29,13 +30,11 @@ body {
     display: block;
 }
 
-/* Change the color of links on hover */
 .sidenav a:hover {
     color: black;
     background-color: #003891;
 }
 
-/* Add a background color on active links */
 .sidenav a.active {
     color: black;
     background-color: #003891;
@@ -48,84 +47,39 @@ body {
 }
 
 h3 {
-    font-size:40px;
-    text-align:center;
+    font-size: 40px;
+    text-align: center;
 }
 
-img.home {
-    border: 15px outset #707070;
-    width: 50%;
+img.home, img.games, img.characthers {
+    max-width: 100%; /* Responsive images */
     height: auto;
-    max-width: 500px; /* Set the maximum width for the image */
+    display: block;
+    margin: 0 auto; /* Center align images */
 }
 
-img.games {
-    float: right;
-    width: 25%;
-    height: auto;
-}
-
-img.characthers {
-    width: 100%;
-    height: auto;
-    max-height: 50%;
-    max-width: 300px; /* Set the maximum width for the image */
-}
-
-div.home {
-    border-width:2px;
-    border-style:solid;
-    margin:15px;
-    padding:15px;
-    border-color:black;
-    border-radius:20px;
-    margin-right: 350px;
-}
-
-div.about {
-    border-width:2px;
-    border-style:solid;
-    margin:15px;
-    padding:10px;
-    border-color:black;
-    border-radius:20px;
+div.home, div.about, div.games, p.characthers {
+    border-width: 2px;
+    border-style: solid;
+    margin: 15px auto; /* Center align and remove margins for responsive layout */
+    padding: 15px;
+    border-color: black;
+    border-radius: 20px;
+    max-width: 800px; /* Limit width for readability on larger screens */
 }
 
 div.games {
-    border-width:2px;
-    border-style:solid;
-    margin:15px;
-    padding:15px;
-    border-color:black;
-    border-radius:20px;
-    margin-right: 200px;
-    margin-left: 325px;
-    align-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center; /* Center align text */
 }
 
-p.characthers {
-    border-width:2px;
-    border-style:solid;
-    margin-right:115px;
-    padding:10px;
-    border-color:black;
-    border-radius:20px;
-    margin-left: inherit;
-    margin-right: inherit;
-}
-
-a.gamelink {
+a.gamelink, a.readmore {
     font-size: 30px;
     color: #003891;
     text-decoration: underline;
     padding-right: 20px;
     padding-top: 15px;
-}
-
-a.readmore {
-    font-size: 30px;
-    color: #003891;
-    text-decoration: underline;
 }
 
 a:hover {
